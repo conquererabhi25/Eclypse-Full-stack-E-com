@@ -1,11 +1,10 @@
-import React from "react";
 import Navigation from "./Navigation";
 import { FaChevronLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
   return (
-    <div className="bg-white flex flex-col w-min-screen h-[200vh]">
+    <div className="bg-white flex flex-col w-min-screen h-[201vh]">
       <Navigation />
       <div className="flex flex-col md:flex-row justify-between w-[90vw] p-[3vw] mt-[5vh] font-Helvetica Neue">
         {/* Adress view large screen */}
